@@ -1,0 +1,66 @@
+body {
+  background-color: wheat;
+  font-family:sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  height: 300px;
+  width:500px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+
+.match {
+  margin-bottom: 20px;
+  gap: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.match label {
+  display: block;
+  font-weight: bold;
+}
+
+.match input[type="number"],
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 2px solid rgb(0, 0, 0)000;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+input[type="text"] {
+  margin-top: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #000000;
+  color: #fff;
+  border: solid black;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: wheat;
+}
